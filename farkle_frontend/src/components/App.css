@@ -1,0 +1,114 @@
+img {
+	width: 80px;
+}
+
+body {
+	background-color: #fff;
+	background-image: linear-gradient(-90deg, #667be6, #754da3);
+	font-family: arial;
+}
+
+.container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.card {
+	padding: 2rem;
+	width: 20rem;
+	border-radius: 1.5em;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(5px);
+}
+
+.form-label {
+	margin-top: 2rem;
+}
+
+/* .row {
+	margin: auto;
+	width: 800px;
+	max-width: 100%; */
+/* } */
+
+.navbar {
+	text-align: center;
+}
+
+.header {
+	height: 100px;
+	max-height: 100%;
+	font-size: 72px;
+	text-align: center;
+	line-height: 100px;
+	font-family: arial;
+	-webkit-text-stroke: 2px #000; /* width and color */
+	font-family: sans;
+	color: #fff;
+}
+
+.scoreboard {
+	border: #fff solid 1px;
+	color: #fff;
+}
+
+.dice {
+	max-width: 520px;
+	margin: 0 auto;
+}
+
+.score {
+	background-color: rgba(52, 52, 52, 0.3);
+	color: #fff;
+	height: 60px;
+	max-height: 100%;
+	font-size: 32px;
+	text-align: center;
+	line-height: 60px;
+	width: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+button {
+	margin: 1rem;
+}
+
+.buttonPress {
+	background-color: green;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	border: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 25px;
+}
+
+.diceClicked {
+	box-shadow: 5px 5px 5px #fff;
+}
+
+/* .column {
+	float: left;
+	width: 20%;
+	margin-left: 160px;
+} */
+
+.roll {
+}
+.roll:hover {
+}
+.bank {
+}
+.bank:hover {
+}
+.transparent {
+	/*For dice that are selected*/
+	opacity: 0.75;
+}
